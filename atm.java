@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class counter {
-    private static int deposit = 0;
+public class atm {
+    static int deposit = 0;
 
     static void atm() {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Welcome to Afzal's ATM");
-        System.out.println("We assume you are a new user. Please register your ATM number and PIN code.");
+        System.out.println("We assume you are a new user. Please register your AtM number and PIN code.");
 
         System.out.print("Register 5-digit ATM number: ");
         int atmNumber = scan.nextInt();
@@ -15,7 +15,7 @@ public class counter {
         System.out.print("Register 3-digit PIN code: ");
         int pinCode = scan.nextInt();
 
-        System.out.print("Amount to be deposited: ");
+        System.out.print("Amont to be deposited: ");
         deposit = scan.nextInt();
 
         System.out.println("Validation: ");
